@@ -19,7 +19,7 @@ form{
     height: 400px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
     box-sizing: border-box;
     -webkit-box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgba(0,0,0,1);
     -moz-box-shadow: 7px 13px 24px -19px, -10px -6px 24px -19px rgba(0,0,0,1);
@@ -28,9 +28,10 @@ form{
 
 #run{
 
-    /*background-color: #face6d;*/
     background-color: #87163c;
     color: #ee4037;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
     margin: 30px;
     width: 120px;
     height: 55px;
@@ -43,4 +44,17 @@ form{
 
 #run:hover{
     background-color: #ffae1b;
+}
+
+#num{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #e3d5a1;
+    color: #ee4037;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
 }
